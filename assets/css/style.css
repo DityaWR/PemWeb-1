@@ -96,13 +96,33 @@ body {
   
   /* Testimoni Section */
   .testimoni {
-    background-color: #f4f4f4;
-    padding: 40px;
     text-align: center;
+    padding: 2rem;
+    background-color: #f8f8f8;
   }
   
-  blockquote {
+  .testimoni h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .testimoni blockquote {
     font-style: italic;
+    margin: 1rem 0;
+  }
+  
+  .testimoni-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 1rem;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .testimoni-button:hover {
+    background-color: #0056b3;
   }
   
   /* Kontak Section */
