@@ -4,8 +4,6 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
   }
-
-
   
   .navbar {
     margin: auto;
@@ -14,9 +12,6 @@ body {
     background-color: #333;
     justify-content: flex-start;
     font-size: 18px;
-    
-
-
   }
   
   .logo{
@@ -36,7 +31,6 @@ body {
     padding: 0;
     display: flex;
     margin-left: 100px;
-
   }
   
   .navbar ul li a {
@@ -130,7 +124,6 @@ body {
     padding: 10px 0;
   }
   
-
   @media (max-width: 768px) {
     .flex-container {
       flex-direction: column;
