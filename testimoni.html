@@ -4,7 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Testimoni Pelanggan</title>
-    <style>
+    <style> 
+     /* General Styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+          } 
+
+        .navbar {
+          margin: auto;
+          display: flex;
+          align-items: center;
+          background-color: #333;
+          justify-content: flex-start;
+          font-size: 18px;
+        }
+        .logo {
+          width: 100px;
+          cursor: pointer;
+        }
+
+         .brand-name {
+          color: white;
+          text-decoration: none; 
+          font-size: 24px; 
+          font-weight: bold; 
+        }
+
+        .navbar ul {
+          list-style: none;
+          padding: 0;
+          display: flex;
+          margin-left: 100px;
+        }
+  
+        .navbar ul li a {
+          list-style: none;
+          display: inline-block;
+          color: white;
+          text-decoration: none;
+          margin: 20px;
+          margin-left: 100px;
+        }
+        
         .testimoni {
             padding: 2rem;
             background-color: #f8f8f8;
@@ -40,6 +83,20 @@
     </style>
 </head>
 <body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <img src="logo.png" class="logo">
+        <a class="brand-name">Toko Lies Jaya</a>
+        
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">Tentang Produk</a></li>
+          <li><a href="#layanan">Layanan</a></li>
+          <li><a href="#galeri">Galeri</a></li>
+          <li><a href="testimoni.html">Testimoni</a></li>
+        </ul>
+    </nav>
     <!-- Testimoni Section -->
     <section id="testimoni" class="testimoni">
         <h1>Testimoni Pelanggan</h1>
